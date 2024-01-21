@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adminside2.css">
+</head>
+<body>
+    <div class="admin-side">
+
+        <!-- left side -->
+        <div class="create-user">
+            <div class="create-user-form">
+
+                <form class="forms" action="userLogin.html" onsubmit="return createUsers(event)">
+                    <div class="head">
+                        <h1  class="header">Create User</h1>
+                    </div>
+
+                    <div >
+                        <label class="userid" for="id">User ID</label>
+                        <br>
+                    <input type="text" id="id"></input>
+                    </div>
+
+                    
+
+                    <div >
+                        <label class="Password" for="pass">Password</label>
+                        <br>
+                    <input type="text" id="pass"></input>
+                    </div>
+
+
+                    <div >
+                        <button class="button1" type="submit" style="color:rgba(255, 255, 255, 1); cursor: pointer;">Submit</button>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+        <!-- right side -->
+        <div class="viewuser">
+            <div class="viewform">
+
+                <div class="head">
+                    <h1 class="header">View User</h1>
+                </div>
+
+                <div class="viewbox">
+                    <div class="ellips">
+                        <div class="content">1</div>
+                    </div>
+                    <br>
+                    <div >
+                        <input id="userkiID" class="text" type="text" style="margin-left: 30px; width: 87%;"></input>
+                    </div>
+                </div>
+                
+                <div class="viewbox">
+                    <div class="ellips">
+                        <div class="content">2</div>
+                    </div>
+                    <br>
+                    <div >
+                        <input id="usersID1" class="text" type="text"  style="margin-left: 30px; width: 87%;"></input>
+                    </div>
+                </div>
+
+
+                <form action="viewTable.html" onsubmit="return viewUser(event)">
+                    <div class="">
+                        <button class="button" type="submit" style="color:rgba(255, 255, 255, 1); font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 17px;
+                        letter-spacing: 0em;
+                        text-align: center;
+                        cursor: pointer;
+                        ">View</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="adminLogin.js"></script>
+</body>
+</html>

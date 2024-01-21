@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="photoUpload.css">
+</head>
+<body>
+    <div class="main">
+        <!-- button to view -->
+        <form action="" class="butt" onsubmit=" return showUserDataof(event)">
+            <div class="view-button"style="cursor: pointer; margin-left: 1330px ;" >
+                <button type="submit"   style="cursor: pointer;
+                border:none;
+                background: none;
+                width: 39px;
+                height: 17px;
+                top: 20px;
+                left: 44px;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 17px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: rgba(5, 0, 255, 1);
+                padding-left: 45px;
+                padding-top: 20px;">View</button>
+            </div>
+        </form>
+
+
+        <!-- photoupload form -->
+
+        <div class="form">
+            <form class="forms" enctype="multipart/form-data" onsubmit="return imageUpload(event)">
+                <div >
+                    <label class="name" id="">Name</label>
+                    <input type="text"  class="nameinput" id="names"></input>
+                </div>
+
+                <div>
+                    <label class="photo">Photo</label>
+                    <input type="file"  id="image">
+                        
+                </input>
+                <img class="photoInput" id="displayedImage"></img>
+                </div>
+
+                <div class="upload-button">
+                    <button class="upload" type="submit" style="width: 62px;
+                    height: 24px;
+                    top: 658px;
+                    left: 725px;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    background: rgba(5, 0, 255, 1);
+                    border: none;
+                    text-align: center;
+                    cursor: pointer;
+                    color: rgba(255, 255, 255, 1);">Upload</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="adminLogin.js"></script>
+</body>
+</html>

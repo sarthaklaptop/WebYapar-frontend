@@ -1,0 +1,182 @@
+.admin-login-page{
+    width: 1512px;
+    /* height: 1002px; */
+    height: 100vh;
+    top: 38px;
+    background: rgba(3, 1, 59, 1);
+    display: flex;
+    
+}
+.logo-design{
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    position: relative;
+    /* padding: 50px; */
+     
+    /* margin-top: -50px;
+    margin-right: -90px; */     
+}
+.logo{
+    transform: rotate(-181.5deg);
+    width: 169px;
+    height: 72px;
+    top: 73px;
+    left: 162px;
+    font-family: Inter;
+    font-size: 59px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(5, 0, 255, 1);
+
+
+
+}
+.sub-div {
+    
+    width: 656px;
+    height: 656px;
+    top: 185.71px;
+    left: 781.66px;
+    transform: rotate(-89.25deg);
+    background: linear-gradient(180deg, #050259 0%, rgba(5, 2, 89, 0) 100%);
+    border: 11px solid #050259; /* Set the border width and color */
+    border-radius: 50%; /* This will make it a circle */
+    /* margin: 10px; */
+}
+
+.ellips2 {
+    width: 486.59px;
+    height: 486.59px;
+    top: 272.16px;
+    left: 698.72px;
+    /* transform: rotate(-89.25deg); */
+    background: linear-gradient(180deg, #050259 0%, rgba(5, 2, 89, 0) 100%);
+    border: 9px solid #050259; /* Set the border width and color */
+    border-radius: 50%; /* This will make it a circle */
+    margin: 70px;
+}
+
+.ellips3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 312.08px;
+    height: 312.08px;
+    top: 359.92px;
+    left: 611.97px;
+    transform: rotate(-89.25deg);
+    background: linear-gradient(180deg, #050259 0%, rgba(5, 2, 89, 0) 100%);
+    border: 7px solid #050259; /* Set the border width and color */
+    border-radius: 50%; /* This will make it a circle */
+    margin: 90px;
+}
+.logo-box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 494px;
+    height: 219px;
+    top: 50%; /* Position from the top */
+    left: 50%; /* Position from the left */
+    transform: translate(-51%, -49%); /* Center the box using transform */
+    /* padding: 73px 163px 74px 162px; */
+    background-color: rgba(255, 255, 255, 1);
+
+}
+.forms {
+    /* flex: 2; This will make the forms div take up 2/3 of the available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 596px;
+    top: 44px;
+    left: 916px;
+    padding: 268px, 66px, 302px, 66px;
+    border: 1px;
+    background: linear-gradient(0deg, #CDCDCD, #CDCDCD),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid rgba(205, 205, 205, 1)
+}
+.admin-login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+    width: 464px;
+    height: 388px;
+    top: 268px;
+    left: 66px;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+.header{
+    /* color: #CDCDCD; */
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(100, 100, 100, 1);
+
+
+}
+.head{
+    width: 385px;
+    height: 53px;
+    top: 268px;
+    left: 105px;
+}
+.userclass{
+    
+    width: 462px;
+    height: 59px;
+    top: 403px;
+    left: 67px;
+    border: 1px solid rgba(205, 205, 205, 1);
+    padding-left: 26px;
+
+}
+.Passwordclass{
+    width: 463px;
+    height: 59px;
+    top: 486px;
+    left: 67px;
+    border: 1px solid rgba(205, 205, 205, 1);
+    padding-left: 26px;
+
+
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 493px;
+    height: 61px;
+    top: 595px;
+    left: 66px;
+    border-radius: 10px;
+    background-color: #0500FF;
+    cursor: pointer;
+
+}
+.login-button{
+    width: 100%;
+    height: 100%;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: none;
+    
+
+}

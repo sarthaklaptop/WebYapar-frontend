@@ -1,0 +1,66 @@
+.main{
+    margin-left: 890px;
+    width: 609px;
+    /* height: 958px; */
+    height: 100vh;
+    left: 903px;
+    border: 1px;
+    background: 
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid rgba(205, 205, 205, 1);
+
+}
+
+.form{
+    width: 463px;
+height: 438px;
+top: 130px;
+left: 73px;
+padding-left: 60px;
+padding-top: 5px;
+
+
+}
+.name{
+    width: 66px;
+    height: 21px;
+    top: 130px;
+    left: 73px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(92, 92, 92, 1);
+
+}
+.inputname{
+    width: 462px;
+    height: 59px;
+    border-radius: 5px;
+    border: 1px;
+    background:linear-gradient(0deg, #CDCDCD, #CDCDCD),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid rgba(205, 205, 205, 1);
+}
+.photodiv{
+    width: 463px;
+height: 477.93px;
+top: -79px;
+
+}
+.admindiv{
+    width: 365px;
+height: 37px;
+top: 796px;
+left: 121px;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 500;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(245, 73, 73, 1);
+
+}

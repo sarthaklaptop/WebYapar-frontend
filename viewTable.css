@@ -1,0 +1,92 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    top: 44px;
+    padding-left: 40px;
+    padding-top: 30px;
+    /* padding-right: 50px; */
+    border: 1px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid rgba(205, 205, 205, 1);
+  }
+
+  .tablea{
+    width: 1452px;
+    height: 275.61px;
+    top: 122px;
+    left: 30px;
+    border: 2.27px;
+    border: 2.27px solid rgba(0, 0, 0, 1);
+
+  }
+  .sub{
+    border: 2.27px;
+    border: 2.27px solid rgba(0, 0, 0, 1);
+  }
+  .sss{
+    width: 1452px;
+    height: 67.61px;
+    top: 122px;
+    left: 30px;
+  }
+  .done{
+    width: 128px;
+height: 58px;
+top: 16.77px;
+cursor: pointer;
+left: 46px;
+/* margin-left: 20px; */
+padding: 21px, 44px, 20px, 44px;
+border-radius: 5px;
+background: rgba(5, 0, 255, 1);
+
+
+
+  }
+  .button{
+    cursor: pointer;
+    width: 40px;
+    height: 17px;
+    top: 21px;
+    left: 44px;
+    padding-left: 45px;
+    padding-top: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: none;
+    border:none;
+  }
+  .action{
+    
+height: 92.19px;
+top: 213.23px;
+left: 1119px;
+padding: 16.77px, 45px, 17.42px, 46px;
+border: 2.27px;
+color: linear-gradient(0deg, #000000, #000000),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+border: 2.27px solid rgba(0, 0, 0, 1);
+  }
